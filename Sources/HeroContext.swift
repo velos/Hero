@@ -20,6 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#if canImport(UIKit)
 import UIKit
 
 public class HeroContext {
@@ -402,3 +403,4 @@ extension HeroContext {
 public protocol HeroCustomSnapshotView {
 	var heroSnapshot: UIView? { get }
 }
+#endif

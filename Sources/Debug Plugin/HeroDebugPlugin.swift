@@ -20,6 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#if canImport(UIKit)
 import UIKit
 
 #if os(iOS)
@@ -176,4 +177,5 @@ extension HeroDebugPlugin: HeroDebugViewDelegate {
     hero.container.layer.sublayerTransform = t
   }
 }
+#endif
 #endif

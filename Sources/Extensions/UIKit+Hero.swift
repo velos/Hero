@@ -20,6 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#if canImport(UIKit)
 import UIKit
 
 private let parameterRegex = "(?:\\-?\\d+(\\.?\\d+)?)|\\w+"
@@ -54,3 +55,4 @@ internal extension UIColor {
     return components.a
   }
 }
+#endif

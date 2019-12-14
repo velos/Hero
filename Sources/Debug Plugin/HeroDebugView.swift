@@ -20,6 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+#if canImport(UIKit)
 import UIKit
 
 #if os(iOS)
@@ -195,4 +196,5 @@ extension HeroDebugView: UIGestureRecognizerDelegate {
     return perspectiveButton.isSelected
   }
 }
+#endif
 #endif

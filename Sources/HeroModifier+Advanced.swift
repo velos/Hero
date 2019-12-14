@@ -21,6 +21,8 @@
 // THE SOFTWARE.
 //
 
+#if canImport(UIKit)
+
 // advance modifiers
 extension HeroModifier {
   /**
@@ -130,3 +132,4 @@ extension HeroModifier {
     targetState.useScaleBasedSizeChange = true
   }
 }
+#endif
